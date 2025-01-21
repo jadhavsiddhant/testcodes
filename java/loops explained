@@ -1,0 +1,38 @@
+There are mainly 4 type of loops in java.
+For loop - this is commonly used when we know the number of iterations before hand , it has 3 parts initialization , condition and update.
+Syntax - for(initialization, condition , update)
+Eg - this example will print number from 0 to 4 , 5 iterations will be performed.
+for (int i = 0; i < 5; i++) {
+    System.out.println("Iteration: " + i);
+}
+
+While loop - this is basically used when , number of iterations are not known and depends on condition to be true to be executed.
+Syntax - 
+while (condition) {
+Code here }
+Eg - this loop prints the number until the value of i is less than 5.
+int i = 0;
+while (i < 5) {
+    System.out.println("Iteration: " + i);
+    i++;
+}
+
+For each loop - also called enhanced for loop it is used to iterate through elements of arrays or collections. It is simpler and avoids dealing with index variables.
+Eg - This prints the number within the array.
+int[] numbers = {1, 2, 3, 4, 5};
+for (int num : numbers) {
+    System.out.println(num);
+}
+
+Do-while loop - it guarantees that the block of code is executed at least once this happens because the condition is checked after the execution.
+Syntax - 
+do {
+    // Code to be executed
+} while (condition);
+
+Eg - it does the same task as , only difference is it checks if i 
+int i = 0;
+do {
+    System.out.println("Iteration: " + i);
+    i++;
+} while (i < 5);
